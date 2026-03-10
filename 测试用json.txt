@@ -1,0 +1,400 @@
+{
+  "Si1": {
+    "Si1_base": {
+      "Positions&Instruments": "Loop1",
+      "Measured": "800.",
+      "WSetp": "800.",
+      "Setp": "800.",
+      "Ramp": "25.",
+      "%Out": "34.92"
+    }
+  },
+  "Al1": {
+    "Al1_tip": {
+      "Positions&Instruments": "Loop2",
+      "Measured": "476.5",
+      "WSetp": "476.4",
+      "Setp": "480.",
+      "Ramp": "5.0",
+      "%Out": "18."
+    },
+    "Al1_base": {
+      "Positions&Instruments": "Loop3",
+      "Measured": "480.2",
+      "WSetp": "480.2",
+      "Setp": "480.",
+      "Ramp": "5.0",
+      "%Out": "13.53"
+    }
+  },
+  "As1": {
+    "As1_valve": {
+      "Positions&Instruments": "MAC #1 - Axis 7",
+      "Measured": "0.0E+0",
+      "WSetp": "0.0E+0",
+      "Setp": "0.0E+0",
+      "Ramp": "25.",
+      "%Out": "3.077E-3"
+    },
+    "As1_crack": {
+      "Positions&Instruments": "Loop4",
+      "Measured": "1000.",
+      "WSetp": "1000.",
+      "Setp": "1000.",
+      "Ramp": "10.",
+      "%Out": "53.44"
+    },
+    "As1_bulk": {
+      "Positions&Instruments": "Loop5",
+      "Measured": "370.9",
+      "WSetp": "370.9",
+      "Setp": "365.",
+      "Ramp": "1.0",
+      "%Out": "26.85"
+    }
+  },
+  "In1": {
+    "In1_tip": {
+      "Positions&Instruments": "Loop6",
+      "Measured": "899.9",
+      "WSetp": "900.",
+      "Setp": "900.",
+      "Ramp": "2.0",
+      "%Out": "42.88"
+    },
+    "In1_base": {
+      "Positions&Instruments": "Loop7",
+      "Measured": "716.7",
+      "WSetp": "700.",
+      "Setp": "700.",
+      "Ramp": "5.0",
+      "%Out": "0.0E+0"
+    }
+  },
+  "Sb1": {
+    "Sb1_valve": {
+      "Positions&Instruments": "MAC #1 - Axis 3",
+      "Measured": "0.0E+0",
+      "WSetp": "0.0E+0",
+      "Setp": "0.0E+0",
+      "Ramp": "25.",
+      "%Out": "3.077E-3"
+    },
+    "Sb1_cracker": {
+      "Positions&Instruments": "Loop8",
+      "Measured": "950.",
+      "WSetp": "950.",
+      "Setp": "950.",
+      "Ramp": "10.",
+      "%Out": "39.47"
+    },
+    "Sb1_bulk": {
+      "Positions&Instruments": "Loop9",
+      "Measured": "601.",
+      "WSetp": "600.9",
+      "Setp": "585.",
+      "Ramp": "1.0",
+      "%Out": "24.68"
+    },
+    "Sb1_conductance": {
+      "Positions&Instruments": "Loop16",
+      "Measured": "645.6",
+      "WSetp": "645.6",
+      "Setp": "645.",
+      "Ramp": "2.5",
+      "%Out": "61.02"
+    }
+  },
+  "As2": {
+    "As2_valve": {
+      "Positions&Instruments": "MAC #1 - Axis 8",
+      "Measured": "0.0E+0",
+      "WSetp": "0.0E+0",
+      "Setp": "0.0E+0",
+      "Ramp": "25.",
+      "%Out": "3.077E-3"
+    },
+    "As2_crack": {
+      "Positions&Instruments": "Loop20",
+      "Measured": "999.9",
+      "WSetp": "1000.",
+      "Setp": "1000.",
+      "Ramp": "15.",
+      "%Out": "54.98"
+    },
+    "As2_bulk": {
+      "Positions&Instruments": "Loop21",
+      "Measured": "449.3",
+      "WSetp": "449.3",
+      "Setp": "448.",
+      "Ramp": "1.0",
+      "%Out": "35.09"
+    }
+  },
+  "In2": {
+    "In2_tip": {
+      "Positions&Instruments": "Loop12",
+      "Measured": "900.",
+      "WSetp": "900.",
+      "Setp": "900.",
+      "Ramp": "2.0",
+      "%Out": "24.49"
+    },
+    "In2_base": {
+      "Positions&Instruments": "Loop13",
+      "Measured": "670.1",
+      "WSetp": "670.",
+      "Setp": "670.",
+      "Ramp": "5.0",
+      "%Out": "4.486"
+    }
+  },
+  "Ga1": {
+    "Ga1_tip": {
+      "Positions&Instruments": "Loop14",
+      "Measured": "900.",
+      "WSetp": "900.",
+      "Setp": "900.",
+      "Ramp": "2.0",
+      "%Out": "23.42"
+    },
+    "Ga1_base": {
+      "Positions&Instruments": "Loop15",
+      "Measured": "700.",
+      "WSetp": "700.",
+      "Setp": "700.",
+      "Ramp": "5.0",
+      "%Out": "13.03"
+    }
+  },
+  "Sb2": {
+    "Sb2_valve": {
+      "Positions&Instruments": "MAC #1 - Axis 7",
+      "Measured": "0.0E+0",
+      "WSetp": "0.0E+0",
+      "Setp": "0.0E+0",
+      "Ramp": "25.",
+      "%Out": "3.077E-3"
+    },
+    "Sb2_crack": {
+      "Positions&Instruments": "Loop17",
+      "Measured": "400.",
+      "WSetp": "400.",
+      "Setp": "400.",
+      "Ramp": "5.0",
+      "%Out": "9.178"
+    },
+    "Sb2_cond": {
+      "Positions&Instruments": "Loop19",
+      "Measured": "320.1",
+      "WSetp": "320.",
+      "Setp": "320.",
+      "Ramp": "1.0",
+      "%Out": "26.64"
+    },
+    "Sb2_bulk": {
+      "Positions&Instruments": "Loop18",
+      "Measured": "255.4",
+      "WSetp": "200.",
+      "Setp": "200.",
+      "Ramp": "2.0",
+      "%Out": "0.0E+0"
+    }
+  },
+  "Ga2": {
+    "Ga2_tip": {
+      "Positions&Instruments": "Loop10",
+      "Measured": "900.",
+      "WSetp": "900.",
+      "Setp": "900.",
+      "Ramp": "2.0",
+      "%Out": "42."
+    },
+    "Ga2_base": {
+      "Positions&Instruments": "Loop11",
+      "Measured": "740.5",
+      "WSetp": "700.",
+      "Setp": "700.",
+      "Ramp": "5.0",
+      "%Out": "0.0E+0"
+    }
+  },
+  "Al2": {
+    "Al2_tip": {
+      "Positions&Instruments": "Loop22",
+      "Measured": "800.",
+      "WSetp": "800.",
+      "Setp": "800.",
+      "Ramp": "6.0",
+      "%Out": "44.14"
+    },
+    "Al2_base": {
+      "Positions&Instruments": "Loop23",
+      "Measured": "850.1",
+      "WSetp": "850.",
+      "Setp": "850.",
+      "Ramp": "6.0",
+      "%Out": "29.16"
+    }
+  },
+  "Be1": {
+    "Be1_base": {
+      "Positions&Instruments": "Loop24",
+      "Measured": "200.",
+      "WSetp": "200.",
+      "Setp": "200.",
+      "Ramp": "25.",
+      "%Out": "5.518"
+    }
+  },
+  "Substrate Heaters": {
+    "GM1_subs_center": {
+      "Positions&Instruments": "PZR #1 zone",
+      "Measured": "150.",
+      "WSetp": "150.",
+      "Setp": "150.",
+      "Ramp": "20.",
+      "%Out": "4.859"
+    },
+    "PM1_subs": {
+      "Positions&Instruments": "PM1_subs_TempControl",
+      "Measured": "23.91",
+      "WSetp": "0.0E+0",
+      "Setp": "0.0E+0",
+      "Ramp": "10.",
+      "%Out": "0.0E+0"
+    }
+  },
+  "Bakeout zones": {
+    "CT1_Bake": {
+      "Positions&Instruments": "CT1 bake controller",
+      "Measured": "18.98",
+      "WSetp": "10.",
+      "Setp": "10.",
+      "Ramp": "0.1",
+      "%Out": "0.0E+0"
+    },
+    "GM1_Bake": {
+      "Positions&Instruments": "GM1 bake controller",
+      "Measured": "19.78",
+      "WSetp": "10.",
+      "Setp": "10.",
+      "Ramp": "0.1",
+      "%Out": "0.0E+0"
+    },
+    "WaterPanel": {
+      "Positions&Instruments": "Water panel temperature monitor",
+      "Measured": "16.84",
+      "WSetp": "50.",
+      "Setp": "50.",
+      "Ramp": "0.0E+0",
+      "%Out": "100."
+    },
+    "LL1_Bake": {
+      "Positions&Instruments": "LL1 bake controller",
+      "Measured": "17.",
+      "WSetp": "0.0E+0",
+      "Setp": "0.0E+0",
+      "Ramp": "5.0",
+      "%Out": "0.0E+0"
+    },
+    "LL2_Bake": {
+      "Positions&Instruments": "LL2 bake controller",
+      "Measured": "29.22",
+      "WSetp": "0.0E+0",
+      "Setp": "0.0E+0",
+      "Ramp": "5.0",
+      "%Out": "0.0E+0"
+    }
+  },
+  "Rotation Controllers": {
+    "GM1_subs_rot": {
+      "Positions&Instruments": "DMC #1 - Axis 1",
+      "Measured": "0.0E+0",
+      "WSetp": "0.0E+0",
+      "Setp": "0.0E+0",
+      "Ramp": "10.",
+      "%Out": "0.2762"
+    }
+  },
+  "Position controllers": {
+    "GM1_GrowthPosition": {
+      "Positions&Instruments": "DMC #1 - Axis 2",
+      "Measured": "0.0E+0",
+      "WSetp": "0.0E+0",
+      "Setp": "0.0E+0",
+      "Ramp": "5.0E-2",
+      "%Out": "0.1992"
+    }
+  },
+  "Flow/level controllers": {
+    "GM1_LN2_Level": {
+      "Positions&Instruments": "LN2 Controller",
+      "Measured": "29.72",
+      "WSetp": "30.",
+      "Setp": "30.",
+      "Ramp": "5.0",
+      "%Out": "1.136"
+    }
+  },
+  "Responses": {
+    "GM1_Shutter_Control": {
+      "Positions&Instruments": "Shutter Control",
+      "Measured": "0.0E+0",
+      "WSetp": "0.0E+0",
+      "Setp": "0.0E+0",
+      "Ramp": "N/A",
+      "%Out": "On"
+    },
+    "GM1_subs_RatioMode": {
+      "Positions&Instruments": "PZR #1 ratio mode response",
+      "Measured": "2.0",
+      "WSetp": "2.0",
+      "Setp": "2.0",
+      "Ramp": "N/A",
+      "%Out": "On"
+    },
+    "GM1_subs_MiddleRatio": {
+      "Positions&Instruments": "PZR #1 middle ratio response",
+      "Measured": "100.",
+      "WSetp": "100.",
+      "Setp": "100.",
+      "Ramp": "N/A",
+      "%Out": "On"
+    },
+    "GM1_subs_OuterRatio": {
+      "Positions&Instruments": "PZR #1 outer ratio response",
+      "Measured": "100.",
+      "WSetp": "100.",
+      "Setp": "100.",
+      "Ramp": "N/A",
+      "%Out": "On"
+    }
+  },
+  "vacuum_and_cryo": {
+    "GM1": {
+      "vacuum": "3.49E-10T",
+      "cryo2": "12.1K",
+      "cryo1": "10.5K"
+    },
+    "Cluster": {
+      "vacuum": "4.38E-11",
+      "cryo": "12.2K"
+    },
+    "Prep": {
+      "vacuum": "3.40E-11T",
+      "cryo": "13.1K"
+    },
+    "LL1": {
+      "vacuum": "1.09E-08T",
+      "cryo": "11.5K"
+    },
+    "LL2": {
+      "vacuum": "2.10E-08T",
+      "cryo": "11.2K"
+    },
+    "BFM": {
+      "bfm": "3.23E-08T"
+    }
+  }
+}
