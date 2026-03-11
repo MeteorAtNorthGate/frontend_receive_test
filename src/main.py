@@ -1,3 +1,9 @@
+# import mimetypes
+
+# # 强制修复 Windows 注册表中的 .js MIME 类型错误
+# mimetypes.add_type('application/javascript', '.js')
+# mimetypes.add_type('text/css', '.css')
+
 import sys
 import threading
 from PySide6.QtWidgets import QApplication
