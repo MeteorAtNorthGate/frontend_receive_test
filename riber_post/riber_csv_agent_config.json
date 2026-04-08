@@ -1,0 +1,6 @@
+{
+    "BACKEND_URL": "http://localhost:8000/receive",
+    "DEVICE_ID": "Riber_Machine_02",
+    "INSPECT_INTERVAL_SECONDS": 60,
+    "CSV_DIRECTORY": "./"
+}
