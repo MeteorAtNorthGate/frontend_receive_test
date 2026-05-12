@@ -7,13 +7,28 @@
 import sys
 import threading
 import argparse
+# from rich_argparse import RichHelpFormatter # 会自动拆解和换行的版本，手动换行需要下面那个
+from rich_argparse import RawDescriptionRichHelpFormatter
 from PySide6.QtWidgets import QApplication
 from gui_window import MainWindow
 from api_server import run_server, signals
 
+desc = f"""
+        [bold]简易的PySide UI + FastAPI 服务端[/bold]
+        接收并显示朝向定义的host与port的/receive的json post
+        例如[underline cyan]http://localhost:8000/receive[/underline cyan]
+        此外暂时没考虑https
+        """
+
 if __name__ == "__main__":
     # --- 参数解析逻辑 ---
-    parser = argparse.ArgumentParser(description="启动 PyQt 客户端与 FastAPI 服务端")
+    # parser = argparse.ArgumentParser(description="启动 PyQt 客户端与 FastAPI 服务端")
+    # 引入内置的 RawDescriptionHelpFormatter
+    parser = argparse.ArgumentParser(
+        description=desc,
+        # formatter_class=argparse.RawDescriptionHelpFormatter,
+        formatter_class=RawDescriptionRichHelpFormatter # 更先进的格式控制（但是第三方包）
+    )
     # 添加 --host 和 --port 参数，并设置默认值
     parser.add_argument("--host", type=str, default="localhost", help="绑定的 Host 地址")
     parser.add_argument("--port", type=int, default=8000, help="绑定的端口号")
