@@ -17,7 +17,7 @@ class EdgeAgentRiberCSV(LoggerMixin):
         
         # 默认配置（如果没有配置文件将自动创建）
         self.config = {
-            "BACKEND_URL": "http://192.168.211.9:8001/api/v1/auto_check",
+            "BACKEND_URL": "http://localhost:8000/receive",
             "DEVICE_ID": "Riber_Machine_02",
             "INSPECT_INTERVAL_SECONDS": 60,
             "CSV_DIRECTORY": "./",  # 指向 CSV 所在的目录
