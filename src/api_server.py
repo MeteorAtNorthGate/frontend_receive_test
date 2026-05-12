@@ -31,8 +31,8 @@ async def receive_data(payload: Any = Body(...)):
     signals.data_received.emit(formatted_json)
     return {"status": "success", "received": payload}
 
-def run_server(port: int = 8000):
+def run_server(host: str = "localhost", port: int = 8000):
     try:
-        uvicorn.run(app, host="0.0.0.0", port=port)
+        uvicorn.run(app, host=host, port=port)
     except Exception as e:
         print(f"Server Error: {e}")
