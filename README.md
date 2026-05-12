@@ -3,9 +3,11 @@
 
 0. 后端启动
 	打包exe:
-		main.exe 直接运行默认端口是8000，可以带参数，
-		例如 main.exe 8001 端口就是8001
-	
+		main.exe 直接运行默认是监听 localhost:8000，可以带参数，
+		例如 
+		python main.py --port 8001
+		python main.py --host 0.0.0.0 --port 8002
+
 	源码调试：
 		同上，配置好虚拟环境和依赖之后 
 		python main.py 或者带参数运行 python main.py xxxx 都是可以的
